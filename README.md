@@ -5,9 +5,12 @@ This is basically just a mod for me and my friends.
 - Stove
 - Quaso
 - Hamburber
-### Portal
+### Portal 2
+- Potato GLADOS (W.I.P.)
 - Wheatley (W.I.P.)
 - Space Core (W.I.P.)
+- Fact Core (W.I.P.)
+- Adventure Core (W.I.P.)
 ### Minecraft
 - Diamond Sword (W.I.P.)
 ### Random
@@ -26,3 +29,6 @@ Karmawillgetchew ma friend
 "orange car" (https://skfb.ly/oF6KD) by sikoro is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
 "Wheatley core - from portal 2 (original)" (https://skfb.ly/oAMyy) by D3DARTM is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
 "Space core - from portal 2 (original)" (https://skfb.ly/oAQIA) by D3DARTM is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+"Fact Core - from portal 2 (original)" (https://skfb.ly/oAKFp) by D3DARTM is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+"Adventure Core - from portal 2 (original)" (https://skfb.ly/oAMyB) by D3DARTM is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+"Potato GLADOS - From Portal 2" (https://skfb.ly/oAzq6) by D3DARTM is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
