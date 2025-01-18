@@ -39,75 +39,13 @@ public class TrashcatsCompany : BaseUnityPlugin
         #region Items
         int iRarity = 30;
         int iPrice  = 10;
-        #region kittyCatMeow
-            iRarity = 30;
-            Item kittyCatMeow = MyCustomAssets.LoadAsset<Item>("Assets/TrashcatsCompany/ScriptableObjects/Items/KittyCatMeow.asset");
-            if (kittyCatMeow == null) {
-                Logger.LogError("Failed to load kittyCatMeow.");
-                return;
-            } else
-            {
-                Logger.LogError("Successfully loaded kittyCatMeow.");
-            }
-            LethalLib.Modules.NetworkPrefabs.RegisterNetworkPrefab(kittyCatMeow.spawnPrefab);
-            LethalLib.Modules.Items.RegisterScrap(kittyCatMeow, iRarity, LethalLib.Modules.Levels.LevelTypes.All);
-        #endregion
         
-        #region mrWhale
-            iRarity = 30;
-            Item mrWhale = MyCustomAssets.LoadAsset<Item>("Assets/TrashcatsCompany/ScriptableObjects/Items/MrWhale.asset");
-            if (mrWhale == null) {
-                Logger.LogError("Failed to load mrWhale.");
-                return;
-            } else
-            {
-                Logger.LogError("Successfully loaded mrWhale.");
-            }
-            LethalLib.Modules.NetworkPrefabs.RegisterNetworkPrefab(mrWhale.spawnPrefab);
-            LethalLib.Modules.Items.RegisterScrap(mrWhale, iRarity, LethalLib.Modules.Levels.LevelTypes.All);
-        #endregion
-        
-        #region quaso
-            iRarity = 10;
-            Item quaso = MyCustomAssets.LoadAsset<Item>("Assets/TrashcatsCompany/ScriptableObjects/Items/Quaso.asset");
-            if (quaso == null) {
-                Logger.LogError("Failed to load quaso.");
-                return;
-            } else
-            {
-                Logger.LogError("Successfully loaded quaso.");
-            }
-            LethalLib.Modules.NetworkPrefabs.RegisterNetworkPrefab(quaso.spawnPrefab);
-            LethalLib.Modules.Items.RegisterScrap(quaso, iRarity, LethalLib.Modules.Levels.LevelTypes.All);
-        #endregion
-        
-        #region hamburber
-            iRarity = 10;
-            Item hamburber = MyCustomAssets.LoadAsset<Item>("Assets/TrashcatsCompany/ScriptableObjects/Items/Hamburber.asset");
-            if (hamburber == null) {
-                Logger.LogError("Failed to load hamburber.");
-                return;
-            } else
-            {
-                Logger.LogError("Successfully loaded hamburber.");
-            }
-            LethalLib.Modules.NetworkPrefabs.RegisterNetworkPrefab(hamburber.spawnPrefab);
-            LethalLib.Modules.Items.RegisterScrap(hamburber, iRarity, LethalLib.Modules.Levels.LevelTypes.All);
-        #endregion
-        
-        #region stove
-            iRarity = 10;
-            Item stove = MyCustomAssets.LoadAsset<Item>("Assets/TrashcatsCompany/ScriptableObjects/Items/Stove.asset");
-            if (stove == null) {
-                Logger.LogError("Failed to load stove.");
-                return;
-            } else
-            {
-                Logger.LogError("Successfully loaded stove.");
-            }
-            LethalLib.Modules.NetworkPrefabs.RegisterNetworkPrefab(stove.spawnPrefab);
-            LethalLib.Modules.Items.RegisterScrap(stove, iRarity, LethalLib.Modules.Levels.LevelTypes.All);
-        #endregion
+        newScrap(20, "KittyCatMeow");
+        newScrap(10, "MrWhale");
+        newScrap(30, "Quaso");
+        newScrap(30, "Hamburber");
+        newScrap(10, "Stove");
+        newScrap(10, "PotatoGlados");
         
         #region diamondSword
             iPrice  = 150;
@@ -135,6 +73,20 @@ public class TrashcatsCompany : BaseUnityPlugin
         #endregion
         
         Logger.LogInfo($"{MyPluginInfo.PLUGIN_GUID} v{MyPluginInfo.PLUGIN_VERSION} has loaded!");
+    }
+
+    private void newScrap(int iRarity, string path)
+    {
+        Item newItem = MyCustomAssets.LoadAsset<Item>("Assets/TrashcatsCompany/ScriptableObjects/Items/" + path + ".asset");
+        if (newItem == null) {
+            Logger.LogError("Failed to load " + path + ".");
+            return;
+        } else
+        {
+            Logger.LogError("Successfully loaded " + path + ".");
+        }
+        LethalLib.Modules.NetworkPrefabs.RegisterNetworkPrefab(newItem.spawnPrefab);
+        LethalLib.Modules.Items.RegisterScrap(newItem, iRarity, LethalLib.Modules.Levels.LevelTypes.All);
     }
 
     internal static void Patch()
