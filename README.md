@@ -17,6 +17,8 @@ This is basically just a mod for me and my friends.
 - U i i a i Cat
 - Mr. Whale (Includes Wacky Voice lines made by Karma (We are not liable for loss of hearing))
 - Car
+- Keyboard
+- Mouse
 ## Credits
 ### Voice Acting
 Karmawillgetchew ma friend
@@ -32,3 +34,5 @@ Karmawillgetchew ma friend
 "Fact Core - from portal 2 (original)" (https://skfb.ly/oAKFp) by D3DARTM is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
 "Adventure Core - from portal 2 (original)" (https://skfb.ly/oAMyB) by D3DARTM is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
 "Potato GLADOS - From Portal 2" (https://skfb.ly/oAzq6) by D3DARTM is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+"Razer Cynosa v2 RGB Gaming Keyboard" (https://skfb.ly/oQDyS) by creamycreamcreme is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+"Ice Claw mouse" (https://skfb.ly/6VAnx) by dmitriy7776661111 is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
