@@ -7,10 +7,10 @@ This is basically just a mod for me and my friends.
 - Hamburber
 ### Portal 2
 - Potato GLADOS (W.I.P.)
-- Wheatley (W.I.P.)
-- Space Core (W.I.P.)
-- Fact Core (W.I.P.)
-- Adventure Core (W.I.P.)
+- Wheatley (Coming Soon)
+- Space Core (Coming Soon)
+- Fact Core (Coming Soon)
+- Adventure Core (Coming Soon)
 ### Minecraft
 - Diamond Sword (W.I.P.)
 ### Random
