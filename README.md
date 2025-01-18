@@ -16,9 +16,9 @@ This is basically just a mod for me and my friends.
 ### Random
 - U i i a i Cat
 - Mr. Whale (Includes Wacky Voice lines made by Karma (We are not liable for loss of hearing))
-- Car
-- Keyboard
-- Mouse
+- Car (Coming Soon)
+- Keyboard (Coming Soon)
+- Mouse (Coming Soon)
 ## Credits
 ### Voice Acting
 Karmawillgetchew ma friend
