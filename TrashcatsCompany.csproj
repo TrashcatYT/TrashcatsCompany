@@ -60,6 +60,9 @@
       <Reference Include="Assembly-CSharp">
         <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\Assembly-CSharp.dll</HintPath>
       </Reference>
+      <Reference Include="ModelReplacementAPI">
+        <HintPath>..\..\Desktop\Lethal-Cumpany-Modding\OkamisModelForLC\ModelReplacementAPI.dll</HintPath>
+      </Reference>
       <Reference Include="UnityEngine">
         <HintPath>..\..\..\..\Program Files (x86)\Steam\steamapps\common\Lethal Company\Lethal Company_Data\Managed\UnityEngine.dll</HintPath>
       </Reference>

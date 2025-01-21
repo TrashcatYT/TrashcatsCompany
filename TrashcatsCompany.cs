@@ -46,6 +46,7 @@ public class TrashcatsCompany : BaseUnityPlugin
         newScrap(30, "Hamburber");
         newScrap(10, "Stove");
         newScrap(10, "PotatoGlados");
+        newScrap(5, "MonsterCan");
         
         #region diamondSword
             iPrice  = 150;
